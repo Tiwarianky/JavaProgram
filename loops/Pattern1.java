@@ -3,16 +3,22 @@ public class Pattern1{
                   
       //print solid rectngle -----------------
 
-<<<<<<< HEAD
        for(int i=1;i<=4; i++){
-=======
-        for(int i=1;i<=4; i++){
->>>>>>> 75b0b23fc7ef4225b51f1a511aded67b01982a44
-            for(int j=1; j<=5; j++){
-                System.out.print("*");
-            }
-            System.out.println();   
+        for(int j=1; j<=5; j++){
+            System.out.print("*");
         }
+        System.out.println();   
+    }
+
+        //print hollow rectangle-----------------
+        for(int i=1; i<=4; i++){
+            for(int j=1; j<=5; j++){
+                if(i==1||j==1||i==4||j==5)
+                System.out.print("*");
+                else
+                System.out.print(" ");
+            }
+    }
 
         //print hollow rectangle-----------------
         for(int i=1; i<=4; i++){
