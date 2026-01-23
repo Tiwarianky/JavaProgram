@@ -2,10 +2,19 @@ public class Pattern1{
     public static void main(String[] args){
                   
       //print solid rectngle -----------------
+<<<<<<< HEAD
 
        for(int i=1;i<=4; i++){
         for(int j=1; j<=5; j++){
             System.out.print("*");
+=======
+       for(int i=1;i<=4; i++){
+        for(int i=1;i<=4; i++){
+            for(int j=1; j<=5; j++){
+                System.out.print("*");
+            }
+            System.out.println();   
+>>>>>>> 46e8382c5f259d8c393c5dd13354f91d98782ddc
         }
         System.out.println();   
     }
